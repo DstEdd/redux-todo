@@ -15,7 +15,7 @@ module.exports = {
                 include: path.resolve(__dirname, 'src'),
                 loader: 'babel-loader',
                 query: {
-                    presets: ['@babel/preset-react', 'env']
+                    presets: ['@babel/preset-react', '@babel/preset-env']
                 }
             },
             {

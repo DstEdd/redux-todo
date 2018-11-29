@@ -10,5 +10,3 @@ const Core = () =>(
 );
 
 ReactDOM.render(<Core/>, document.getElementById('root'));
-
-alert('yeah !');
